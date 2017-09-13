@@ -4,7 +4,7 @@ h1,h2,h3,p,figure
 	padding: 0;
 }
 
-.active
+.activelink
 {
 	border-bottom: 2px solid #f42052;
 }
@@ -61,7 +61,7 @@ nav ul
 	padding: 0;
 }
 
- nav li
+nav li
 {
 	padding: 10px 0;
 }
@@ -234,7 +234,7 @@ p
 	animation: underlin_gradient .3s linear forwards;
 }
 
-section img
+.fig-row img
 {
 	max-width: 470px;
 	max-height: 310px;
@@ -293,7 +293,7 @@ section img
 
 #rooms
 {
-	padding: 65px 0 35px 0;
+	padding: 65px 0 65px 0;
 	width: 100%;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -309,10 +309,10 @@ section img
 	flex-direction: column;
 }
 
-#rooms p
+/* #rooms p
 {
 	margin-bottom: 50px;
-}
+} */
 
 footer
 {
