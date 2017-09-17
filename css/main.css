@@ -20,7 +20,7 @@ p
 
 .activelink
 {
-	border-bottom: 2px solid #0a7434;
+	border-bottom: 2px solid #f42052;
 }
 
 .navbar-animation-onscroll
@@ -191,8 +191,8 @@ nav li
 	flex-direction: column;
 	padding: 20px 50px;
 	margin-top: 35vh;
-	border-top: 2px solid #0a7434;
-	border-bottom: 2px solid #0a7434;
+	border-top: 2px solid #f42052;
+	border-bottom: 2px solid #f42052;
 }
 
 .name h1
