@@ -4,6 +4,19 @@ h1,h2,h3,p,figure
 	padding: 0;
 }
 
+h2
+{
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+p
+{
+	max-width: 900px;
+	padding: 0 20px;
+	text-align: center;
+}
+
 .activelink
 {
 	border-bottom: 2px solid #f42052;
@@ -61,15 +74,35 @@ nav ul
 	padding: 0;
 }
 
+.mobile-visible, .desktop-visible
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.mobile-visible
+{
+	display: none;
+}
 nav li
 {
 	padding: 10px 0;
 }
 
+nav li strong
+{
+	text-transform: uppercase;
+	font-family: CitricaCyrillic;
+	margin: 10px 0;
+	display: block;
+}
+
 nav li a
 {
 	text-decoration: none;
-	margin: 0 35px;
+	margin: 10px 35px;
 	color: #fff;
 	display: block;
 	font-size: 15px;
@@ -79,12 +112,72 @@ nav li a
 }
 
 
-nav li a:not([class="active"]):hover
+nav li a:not([class="activelink"]):hover
 {
 	border-bottom: 2px solid;
-	animation: underlin_gradient .3s linear forwards;
+	animation: underline_gradient .3s linear forwards;
 }
 
+/* SIDEMENU-START */
+.sidemenu
+{
+	min-height: 20px;
+	min-width: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px auto;
+}
+
+.sidemenu div
+{
+	height: 3px;
+	width: 25px;
+	background-color: #fff;
+	border-radius: 3px;
+	transition: .4s ease;
+}
+
+.topstick
+{
+	margin-bottom: 5.5px;
+	z-index: 999;
+}
+
+.middlestick
+{
+	margin-bottom: 5.5px;
+	opacity: 1;
+}
+
+.bottomstick
+{
+	top: 17px;
+	z-index: 999;
+}
+
+.sidemenu:hover .topstick
+{
+	-webkit-transform:translateY(8.5px) rotate(45deg);
+	-ms-transform:translateY(8.5px) rotate(45deg);
+	-o-transform:translateY(8.5px) rotate(45deg);
+	transform:translateY(8.5px) rotate(45deg);
+}
+
+.sidemenu:hover .bottomstick
+{
+	-webkit-transform:translateY(-8.5px) rotate(-45deg);
+	-ms-transform:translateY(-8.5px) rotate(-45deg);
+	-o-transform:translateY(-8.5px) rotate(-45deg);
+	transform:translateY(-8.5px) rotate(-45deg);
+}
+
+.sidemenu:hover .middlestick
+{
+	opacity: 0;
+}
+/* SIDEMENU-END */
 .name
 {
 	display: -webkit-flex;
@@ -98,34 +191,6 @@ nav li a:not([class="active"]):hover
 	border-top: 2px solid #f42052;
 	border-bottom: 2px solid #f42052;
 }
-
-/* .name:before
-{
-	content: '';
-	background-image: url(../images/ornament_top.png);
-	-webkit-background-size: contain;
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 0;
-	height: 75px;
-}
-
-.name:after
-{
-	content: '';
-	background-image: url(../images/ornament_bottom.png);
-	-webkit-background-size: contain;
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 0;
-	height: 75px;
-}
-
-.name:hover:before, .name:hover:after
-{
-	width: 100%;
-	transition: 1s linear;
-} */
 
 .name h1
 {
@@ -165,18 +230,6 @@ header a
 	padding: 65px 0;
 }
 
-h2
-{
-	margin-bottom: 30px;
-	text-transform: uppercase;
-}
-
-p
-{
-	max-width: 900px;
-	padding: 0 20px;
-}
-
 #services
 {
 	width: 100%;
@@ -201,6 +254,11 @@ p
 	color: #fff;
 }
 
+#services p
+{
+	margin-bottom: 50px;
+}
+
 #services section
 {
 	max-width: 970px;
@@ -214,32 +272,6 @@ p
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-}
-
-#services p
-{
-	margin-bottom: 50px;
-}
-
-#services a
-{
-	position: relative;
-	text-decoration: none;
-	color: #fff;
-}
-
-#services a:hover strong
-{
-	border-bottom: 2px solid;
-	animation: underlin_gradient .3s linear forwards;
-}
-
-.fig-row img
-{
-	max-width: 470px;
-	max-height: 310px;
-	width: 100%;
-	height: 100%;
 }
 
 .fig-row
@@ -258,6 +290,9 @@ p
 
 .fig-row a
 {
+	position: relative;
+	text-decoration: none;
+	color: #fff;
 	margin-bottom: 30px;
 }
 
@@ -266,7 +301,21 @@ p
 	margin-left: 25px;
 }
 
-#services figcaption
+.fig-row a:hover strong
+{
+	border-bottom: 2px solid;
+	animation: underline_gradient .3s linear forwards;
+}
+
+.fig-row img
+{
+	max-width: 470px;
+	max-height: 310px;
+	width: 100%;
+	height: 100%;
+}
+
+.fig-row figcaption
 {
 	position: absolute;
 	min-width: 289px;
@@ -286,7 +335,7 @@ p
 	align-items: center;
 }
 
-#services strong
+.fig-row strong
 {
 	border-bottom: 2px solid rgba(0,0,0,0);
 }
@@ -295,24 +344,17 @@ p
 {
 	padding: 65px 0 65px 0;
 	width: 100%;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	-ms-align-items: center;
-	align-items: center;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
 }
 
-/* #rooms p
+#rooms h2
 {
-	margin-bottom: 50px;
-} */
+	text-align: center;
+}
+
+#rooms p, .banner__wrapper
+{
+	margin: 0 auto;
+}
 
 footer
 {
