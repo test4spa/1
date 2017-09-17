@@ -1,6 +1,1 @@
-@import "normalize.css";
-@import "fonts.css";
-@import "font-awesome.min.css";
-@import "animation.css";
-@import "main.css";
-@import "media.css";
+@import url(normalize.css);@import url(fonts.css);@import url(font-awesome.min.css);@import url(animation.css);@import url(main.css);@import url(media.css);
