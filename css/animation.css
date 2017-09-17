@@ -1,7 +1,7 @@
 @keyframes underline_gradient {
 	0% {border-color: #fff;}
-	50% {border-color: #f0bc2a;}
-	100% {border-color: #f42052;}
+	50% {border-color: #5fa97d;}
+	100% {border-color: #0a7434;}
 }
 
 @keyframes bg_gradient{

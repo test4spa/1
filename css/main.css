@@ -8,6 +8,7 @@ h2
 {
 	margin-bottom: 30px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 p
@@ -19,7 +20,7 @@ p
 
 .activelink
 {
-	border-bottom: 2px solid #f42052;
+	border-bottom: 2px solid #0a7434;
 }
 
 .navbar-animation-onscroll
@@ -59,6 +60,7 @@ nav
 	width: 100%;
 	position: fixed;
 	z-index: 999;
+	font-size: 15px;
 }
 
 nav ul
@@ -91,7 +93,7 @@ nav li
 	padding: 10px 0;
 }
 
-nav li strong
+.mobile-visible strong
 {
 	text-transform: uppercase;
 	font-family: CitricaCyrillic;
@@ -99,20 +101,19 @@ nav li strong
 	display: block;
 }
 
-nav li a
+.desktop-visible a
 {
 	text-decoration: none;
 	margin: 10px 35px;
 	color: #fff;
 	display: block;
-	font-size: 15px;
 	font-weight: normal;
 	text-transform: uppercase;
 	padding-bottom: 5px;
 }
 
 
-nav li a:not([class="activelink"]):hover
+.desktop-visible a:not([class="activelink"]):hover
 {
 	border-bottom: 2px solid;
 	animation: underline_gradient .3s linear forwards;
@@ -128,6 +129,8 @@ nav li a:not([class="activelink"]):hover
 	box-sizing: border-box;
 	cursor: pointer;
 	margin: 10px auto;
+	position: relative;
+	z-index: 999;
 }
 
 .sidemenu div
@@ -137,12 +140,13 @@ nav li a:not([class="activelink"]):hover
 	background-color: #fff;
 	border-radius: 3px;
 	transition: .4s ease;
+	position: relative;
 }
 
 .topstick
 {
 	margin-bottom: 5.5px;
-	z-index: 999;
+	/* z-index: 999; */
 }
 
 .middlestick
@@ -151,13 +155,12 @@ nav li a:not([class="activelink"]):hover
 	opacity: 1;
 }
 
-.bottomstick
+/* .bottomstick
 {
-	top: 17px;
 	z-index: 999;
-}
+} */
 
-.sidemenu:hover .topstick
+.clicked .topstick
 {
 	-webkit-transform:translateY(8.5px) rotate(45deg);
 	-ms-transform:translateY(8.5px) rotate(45deg);
@@ -165,7 +168,7 @@ nav li a:not([class="activelink"]):hover
 	transform:translateY(8.5px) rotate(45deg);
 }
 
-.sidemenu:hover .bottomstick
+.clicked .bottomstick
 {
 	-webkit-transform:translateY(-8.5px) rotate(-45deg);
 	-ms-transform:translateY(-8.5px) rotate(-45deg);
@@ -173,7 +176,7 @@ nav li a:not([class="activelink"]):hover
 	transform:translateY(-8.5px) rotate(-45deg);
 }
 
-.sidemenu:hover .middlestick
+.clicked .middlestick
 {
 	opacity: 0;
 }
@@ -188,8 +191,8 @@ nav li a:not([class="activelink"]):hover
 	flex-direction: column;
 	padding: 20px 50px;
 	margin-top: 35vh;
-	border-top: 2px solid #f42052;
-	border-bottom: 2px solid #f42052;
+	border-top: 2px solid #0a7434;
+	border-bottom: 2px solid #0a7434;
 }
 
 .name h1
@@ -320,7 +323,7 @@ header a
 	position: absolute;
 	min-width: 289px;
 	min-height: 54px;
-	background-color: rgba(156,139,129,.7);
+	background-color: rgba(156,139,129,.5);
 	bottom: 30px;
 	left: -10px;
 	font-size: 25px;
@@ -383,4 +386,9 @@ footer section
 	justify-content: space-between;
 	-ms-align-items: center;
 	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
