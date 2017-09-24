@@ -1,14 +1,25 @@
-h1,h2,h3,p,figure
+h1,h2,h3,p,figure,ul
 {
 	margin: 0;
 	padding: 0;
+	text-align: center;
+}
+
+body
+{
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 106px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: OpenSans;
 }
 
 h2
 {
 	margin-bottom: 30px;
 	text-transform: uppercase;
-	text-align: center;
 }
 
 p
@@ -16,6 +27,11 @@ p
 	max-width: 900px;
 	padding: 0 20px;
 	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
 }
 
 .activelink
@@ -28,23 +44,13 @@ p
 	animation: bg_gradient .5s linear forwards;
 }
 
-body
-{
-	font-family: OpenSans;
-}
-
 header
 {
 	width: 100%;
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	height: 250px;
 	background-image: url(../images/main_first_x.jpg);
-	background-color: rgb(214,200,159);
-  	background-blend-mode: multiply;
-  	display: -webkit-flex;
+	background-position: center 355px;
+	display: -webkit-flex;
   	display: -moz-flex;
   	display: -ms-flex;
   	display: -o-flex;
@@ -72,8 +78,6 @@ nav ul
 	display: flex;
 	list-style-type: none;
 	justify-content: center;
-	margin: 0;
-	padding: 0;
 }
 
 .mobile-visible, .desktop-visible
@@ -181,7 +185,8 @@ nav li
 	opacity: 0;
 }
 /* SIDEMENU-END */
-.name
+
+.sides_name
 {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -189,51 +194,78 @@ nav li
 	display: -o-flex;
 	display: flex;
 	flex-direction: column;
-	padding: 20px 50px;
-	margin-top: 35vh;
-	border-top: 2px solid #f42052;
-	border-bottom: 2px solid #f42052;
+	justify-content: space-between;
+	height: 100%;
+	margin-top: 13vh;
 }
 
-.name h1
+.sides_name h1
 {
 	font-family: CitricaCyrillic;
-	font-size: 80px;
+	font-size: 60px;
 	text-transform: uppercase;
 	letter-spacing: 10px;
 }
 
-.name p
+.sides_name p
 {
-	font-size: 30px;
+	font-size: 12px;
 	margin: 0 auto;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-family: OpenSansLht;
+	letter-spacing: 5px;
 }
 
-header a
+.sides_name a
 {
-	color: #fff;
-	margin-bottom: 30px;
+	color: white;
 }
 
-#welcome
+main
 {
 	width: 100%;
+}
+
+footer
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-height: 100px;
+	background-color: #000;
+	color: #fff;
+}
+
+footer p
+{
+	text-align: right;
+	opacity: .8;
+}
+
+footer div
+{
+	margin: 0 auto;
+	max-width: 970px;
+	min-height: inherit;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
+	justify-content: space-between;
 	-ms-align-items: center;
 	align-items: center;
-	padding: 65px 0;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
-#services
+/* SERVICES */
+
+main
 {
 	width: 100%;
 	padding: 65px 0 35px 0;
@@ -249,20 +281,15 @@ header a
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/main_second_x.jpg);
-	color: #fff;
+	color: black;
 }
 
-#services p
+main p
 {
 	margin-bottom: 50px;
 }
 
-#services section
+main section
 {
 	max-width: 970px;
 	display: -webkit-flex;
@@ -343,54 +370,4 @@ header a
 .fig-row strong
 {
 	border-bottom: 2px solid rgba(0,0,0,0);
-}
-
-#rooms
-{
-	padding: 65px 0 65px 0;
-	width: 100%;
-}
-
-#rooms h2
-{
-	text-align: center;
-}
-
-#rooms p, .banner__wrapper
-{
-	margin: 0 auto;
-}
-
-footer
-{
-	width: 100%;
-	min-height: 100px;
-	background-color: #000;
-	color: #fff;
-}
-
-footer p
-{
-	text-align: right;
-	opacity: .8;
-}
-
-footer div
-{
-	margin: 0 auto;
-	max-width: 970px;
-	min-height: inherit;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: space-between;
-	-ms-align-items: center;
-	align-items: center;
-	-webkit-flex-wrap: wrap;
-	-moz-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	-o-flex-wrap: wrap;
-	flex-wrap: wrap;
 }

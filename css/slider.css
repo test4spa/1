@@ -1,1 +1,352 @@
-.banner__wrapper{position:relative;height:250px;margin-top:75px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}.banner__nav{position:absolute;z-index:1;display:block;width:50px;height:50px;margin:15px 0 0;background:#fff;cursor:pointer;opacity:.25}.banner__nav.left:before,.banner__nav.right:before{content:"";position:inherit;width:inherit;height:inherit}.banner__nav.left{left:0}.banner__nav.left:before{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAVCAYAAAByrA+0AAABrElEQVQ4EY1TW0sCQRg9u2zrGl0eykLoalFGEhJZDxYRIYSP0b/sqR6C6iEJs8A0km4PGlhExHaTInULa74vdmjbLn4P38ycOefMNze81xFXF/l3q1phpop/olg4xl5iFamtFQgF/hQQOZPaYMv2zm6Uy2Vovy2QSyeQPzvgaZ+/Fz0DIWia9rMgk1pHsXDCZK1BR2h8lsm6rrtL+komxaggN+geGIbxacBZpFeritx+QjoTTmV0iHKIrCgKU3kPRN7eWEbpwWSQktHYhIHgOKgMqt0OPqXvZJoMT8WgewwW2GRq1dK96XAmMCCcm1vb4PV6ZSmEU6i0oe/xVLpjZ1V1X5Pa2NSCnsCIQ2NeF3F5furA7AFbTEQX0NU3bGPcnhzuoPR458BoINecnIljLDInCW+vFrK7m6jVahJzCGgwGAyL05mXhIfbaxxlk3JMHbmCjQaGxhyi/GkG5s2VPe0W0AyJItNx0DuiSCfXUK2Uue9agVGRuvuHEZ1fZFHl5RlHB8n//0Obz4+Z2BKL6PlYlgWF/p3t+lv7/PQIKOIviDdVl4CM6Hjp5j8ANui6S6qLlboAAAAASUVORK5CYII=) center center no-repeat}.banner__nav.right{right:0}.banner__nav.right:before{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAVCAYAAAByrA+0AAABpklEQVQ4EY2TTUsCURSGX4dx1CjUSkIignKRJoaZi0zCTQbt+4ntol0SSF+YC7NEwihDrayQMolKchwHbc4FL4xWdhZ3zsfz3nvmzhlDR7N2uw1BEPAfE2VZhqqqQEfF8IhtoEYwGAzInR/hYHcLb7XnwQJJkmCUTFBbChLxbdSqlT9F7ASvPwzz0DATJfd38HCb/1XE3tRktiAY3mAQnZQ+iaF0c/GjiF+NY2ISLneAQ9nU/o8iLiDSuxiGfdypExWuszwmRyegb7G4vAbRKHHoIn2I00SMxzoBZa22MXgWVjhAzuNdHmfJPZbrE1B2asYNh3OaAd2lXLrCV/1D3xIVaUwURcGIdazL8mdLaeoF2lih0Wjg872G0nWGg+RY7Q5YRx16Ae2sNGVkU/E+eDW6yXJit0IDSIKitrP8Ve+mMT3rgW8pwsaHkkxArdDUvlTuUS7mdHAgtM5jctgtEUwvdJk55kXauRemokhtUDs5DaY5InPN+eELRpjfu4gEUxtVrR2yQCiq9T3fy/FYsFgseH1+YIlBMIPon9ausvNULpA70L4BOEvU+9VaFC4AAAAASUVORK5CYII=) center center no-repeat}.banner__nav.left:hover,.banner__nav.right:hover{opacity:1}.banner__slides{list-style-type:none;padding:0}.banner__slide{position:absolute}.js-banner__slide:not(:first-child){display:none}.banner__slide--image-frame{margin:0}.banner__slide--image-frame img{width:100%;min-height:100%;max-height:100%}.banner__slide--info{position:absolute;top:0;right:0;width:100%;padding:0 100px;text-align:right;color:#fff;text-shadow:0 0 10px #000}.banner__slide--info h2{font-size:12px;font-weight:400;letter-spacing:.4em;text-transform:uppercase}.banner__slide--info__name{display:block;margin-top:25%;font-size:32px;font-weight:400}.banner__slide--info__name.xs{font-size:12px}.banner__slide--info__name.s{font-size:22px}.banner__slide--info__name.m{font-size:32px}.banner__slide--info__name.l{font-size:42px}.banner__slide--info__name.xl{font-size:52px}.banner__slide--info__name.xxl{font-size:62px}.banner__slide--info__name.xxxl{font-size:72px}.banner__slide--info__region{display:block;margin-top:.5em;font-size:12px;font-weight:400;text-transform:uppercase;letter-spacing:.5em}.banner__slide--info__region.xs{font-size:8px}.banner__slide--info__region.s{font-size:10px}.banner__slide--info__region.m{font-size:12px}.banner__slide--info__region.l{font-size:14px}.banner__slide--info__region.xl{font-size:16px}.banner__slide--info__region.xxl{font-size:18px}.banner__slide--info__region.xxxl{font-size:20px}.banner__slide--info>span{padding:8px 15px;border:none;border-top:1px solid #826b42;border-bottom:3px solid #735a32;background:#594018;color:#fff;font-family:inherit;font-size:16px;cursor:pointer}.banner__position{display:none}@media (min-width:500px){.banner__wrapper{height:300px}}@media (min-width:600px){.banner__bulg,.banner__wrapper:before{content:"";position:absolute}.banner__wrapper{width:100%;max-width:960px;height:400px;margin-top:50px}.banner__wrapper:before{top:0;left:5%;width:90%;height:100%;border-radius:45%}.banner__nav{top:50%;margin-top:-36px;width:72px;height:72px}.banner__nav.left{left:3%;opacity:.4}.banner__nav.right{right:2.8%;opacity:.4}@media (max-width:700px){.banner__nav.left{left:0}.banner__nav.right{right:0}}.banner__nav.left:hover,.banner__nav.right:hover{background:#fff;box-shadow:none}.banner{position:relative;overflow:hidden;width:100%;height:100%}.banner__bulg{top:10px;left:50%;margin-left:-100%;width:200%;max-width:1913px;height:376px;border-radius:50%;border:2px solid #e8e8e8;background:#fff;box-shadow:0 0 0 10px #fff}.banner__bulg:before,.banner__slide{content:"";position:absolute;width:100%}.banner__bulg:before{top:22px;left:50%;margin-left:-470px;max-width:940px;height:332px;border-left:2px solid #e8e8e8;border-right:2px solid #e8e8e8;box-shadow:10px 0 0 0 #fff,-10px 0 0 0 #fff}.banner__slides{list-style-type:none;padding:0}.banner__slide{overflow:hidden;height:344px;border-radius:50%;text-align:center}.banner__slide a{position:relative;display:block;width:54%;margin-left:22%;font-family:Georgia,'Times New Roman',serif;text-decoration:none;cursor:default}.banner__slide--image-frame img{max-height:none}.banner__slide--info{width:35%;height:100%;padding:5% 60px 100% 10px;background:rgba(89,64,24,.25);text-shadow:none}.banner__slide--info__name{text-shadow:1px -1px 0 #594018}.banner__position{position:absolute;display:block;right:50%;bottom:-30px;list-style-type:none;padding:0}.banner__position li{float:left;margin-left:10px;width:12px;height:12px;border-radius:50%;background:#fff;box-shadow:0 1px 0 0 #ccc;cursor:pointer}.banner__position li.active{background:#bda376;box-shadow:0 1px 0 0 #fff}}@media (min-width:700px){.banner__nav{opacity:1}.banner__slide a{width:47%;margin-left:26.5%}.banner__slide--image-frame{width:68%}.banner__slide--info{width:31%;padding-right:30px;background:#a38b5f;background:-moz-linear-gradient(top,#a38b5f 0,#674f29 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#a38b5f),color-stop(100%,#674f29));background:-webkit-linear-gradient(top,#a38b5f 0,#674f29 100%);background:-o-linear-gradient(top,#a38b5f 0,#674f29 100%);background:-ms-linear-gradient(top,#a38b5f 0,#674f29 100%);background:linear-gradient(to bottom,#a38b5f 0,#674f29 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a38b5f', endColorstr='#674f29', GradientType=0 )}}@media (min-width:960px){.banner__wrapper{width:960px}.banner__bulg{margin-left:-960px;width:1920px}.banner__slide{left:50%;margin-left:-900px;width:1800px}.banner__slide a{width:900px;margin-left:25%}}
+/*
+ * Copyright 2014 by Intellectual Reserve, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Author:        Adam Carson
+ * Dependencies:  jquery.js (1.8.3+)
+ *
+ * Name: [no name]
+ * Description:
+ * Options:
+ */
+.banner__wrapper {
+position: relative;
+height: 250px;
+margin-top: 75px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.banner__nav {
+position: absolute;
+z-index: 1;
+display: block;
+width: 50px;
+height: 50px;
+margin: 15px 0 0;
+background: #fff;
+cursor: pointer;
+opacity: 0.25;
+}
+.banner__nav.left {
+left: 0;
+}
+.banner__nav.left:before {
+content: "";
+position: inherit;
+width: inherit;
+height: inherit;
+background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAVCAYAAAByrA+0AAABrElEQVQ4EY1TW0sCQRg9u2zrGl0eykLoalFGEhJZDxYRIYSP0b/sqR6C6iEJs8A0km4PGlhExHaTInULa74vdmjbLn4P38ycOefMNze81xFXF/l3q1phpop/olg4xl5iFamtFQgF/hQQOZPaYMv2zm6Uy2Vovy2QSyeQPzvgaZ+/Fz0DIWia9rMgk1pHsXDCZK1BR2h8lsm6rrtL+komxaggN+geGIbxacBZpFeritx+QjoTTmV0iHKIrCgKU3kPRN7eWEbpwWSQktHYhIHgOKgMqt0OPqXvZJoMT8WgewwW2GRq1dK96XAmMCCcm1vb4PV6ZSmEU6i0oe/xVLpjZ1V1X5Pa2NSCnsCIQ2NeF3F5furA7AFbTEQX0NU3bGPcnhzuoPR458BoINecnIljLDInCW+vFrK7m6jVahJzCGgwGAyL05mXhIfbaxxlk3JMHbmCjQaGxhyi/GkG5s2VPe0W0AyJItNx0DuiSCfXUK2Uue9agVGRuvuHEZ1fZFHl5RlHB8n//0Obz4+Z2BKL6PlYlgWF/p3t+lv7/PQIKOIviDdVl4CM6Hjp5j8ANui6S6qLlboAAAAASUVORK5CYII=) no-repeat center center;
+}
+.banner__nav.right {
+right: 0;
+}
+.banner__nav.right:before {
+content: "";
+position: inherit;
+width: inherit;
+height: inherit;
+background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAVCAYAAAByrA+0AAABpklEQVQ4EY2TTUsCURSGX4dx1CjUSkIignKRJoaZi0zCTQbt+4ntol0SSF+YC7NEwihDrayQMolKchwHbc4FL4xWdhZ3zsfz3nvmzhlDR7N2uw1BEPAfE2VZhqqqQEfF8IhtoEYwGAzInR/hYHcLb7XnwQJJkmCUTFBbChLxbdSqlT9F7ASvPwzz0DATJfd38HCb/1XE3tRktiAY3mAQnZQ+iaF0c/GjiF+NY2ISLneAQ9nU/o8iLiDSuxiGfdypExWuszwmRyegb7G4vAbRKHHoIn2I00SMxzoBZa22MXgWVjhAzuNdHmfJPZbrE1B2asYNh3OaAd2lXLrCV/1D3xIVaUwURcGIdazL8mdLaeoF2lih0Wjg872G0nWGg+RY7Q5YRx16Ae2sNGVkU/E+eDW6yXJit0IDSIKitrP8Ve+mMT3rgW8pwsaHkkxArdDUvlTuUS7mdHAgtM5jctgtEUwvdJk55kXauRemokhtUDs5DaY5InPN+eELRpjfu4gEUxtVrR2yQCiq9T3fy/FYsFgseH1+YIlBMIPon9ausvNULpA70L4BOEvU+9VaFC4AAAAASUVORK5CYII=) no-repeat center center;
+}
+.banner__nav.left:hover, .banner__nav.right:hover {
+opacity: 1;
+}
+.banner__slides {
+list-style-type: none;
+padding: 0;
+}
+.banner__slide {
+position: absolute;
+}
+.js-banner__slide:not(:first-child) {
+display: none;
+}
+.banner__slide--image-frame {
+margin: 0;
+}
+.banner__slide--image-frame img {
+width: 100%;
+min-height: 100%;
+max-height: 100%;
+}
+.banner__slide--info {
+position: absolute;
+top: 0;
+right: 0;
+width: 100%;
+padding: 0 100px;
+text-align: right;
+color: #fff;
+text-shadow: 0 0 10px #000;
+}
+.banner__slide--info h2 {
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0.4em;
+text-transform: uppercase;
+}
+.banner__slide--info__name {
+display: block;
+margin-top: 25%;
+font-size: 32px;
+font-weight: normal;
+}
+.banner__slide--info__name.xs {
+font-size: 12px;
+}
+.banner__slide--info__name.s {
+font-size: 22px;
+}
+.banner__slide--info__name.m {
+font-size: 32px;
+}
+.banner__slide--info__name.l {
+font-size: 42px;
+}
+.banner__slide--info__name.xl {
+font-size: 52px;
+}
+.banner__slide--info__name.xxl {
+font-size: 62px;
+}
+.banner__slide--info__name.xxxl {
+font-size: 72px;
+}
+.banner__slide--info__region {
+display: block;
+margin-top: 0.5em;
+font-size: 12px;
+font-weight: normal;
+text-transform: uppercase;
+letter-spacing: 0.5em;
+}
+.banner__slide--info__region.xs {
+font-size: 8px;
+}
+.banner__slide--info__region.s {
+font-size: 10px;
+}
+.banner__slide--info__region.m {
+font-size: 12px;
+}
+.banner__slide--info__region.l {
+font-size: 14px;
+}
+.banner__slide--info__region.xl {
+font-size: 16px;
+}
+.banner__slide--info__region.xxl {
+font-size: 18px;
+}
+.banner__slide--info__region.xxxl {
+font-size: 20px;
+}
+.banner__slide--info > span {
+padding: 8px 15px;
+border: none;
+border-top: 1px solid #826b42;
+border-bottom: 3px solid #735a32;
+background: #594018;
+color: #fff;
+font-family: inherit;
+font-size: 16px;
+cursor: pointer;
+}
+.banner__position {
+display: none;
+}
+ @media (min-width: 500px) {
+.banner__wrapper {
+height: 300px;
+}
+}
+@media (min-width: 600px) {
+.banner__wrapper {
+width: 100%;
+max-width: 960px;
+height: 400px;
+margin-top: 50px;
+}
+.banner__wrapper:before {
+content: "";
+position: absolute;
+top: 0;
+left: 5%;
+width: 90%;
+height: 100%;
+border-radius: 45%;
+/* box-shadow: 0 0 25px 0 #888; */
+}
+.banner__nav {
+top: 50%;
+margin-top: -36px;
+width: 72px;
+height: 72px;
+/* border-radius: 50%; */
+}
+.banner__nav.left {
+left: 3%;
+opacity: .4;
+/* box-shadow: -15px 10px 25px -15px #888,  inset 36px 0 36px -20px #f8f8f8; */
+}
+.banner__nav.right {
+right: 2.8%;
+opacity: .4;
+/* box-shadow: 15px 10px 25px -15px #888,  inset -36px 0 36px -20px #f8f8f8; */
+}
+
+@media (max-width:700px)
+{
+	.banner__nav.left
+	{
+	left: 0;
+	}
+	.banner__nav.right
+	{
+	right: 0;
+	}
+}
+
+.banner__nav.left:hover,  .banner__nav.right:hover {
+background: #fff;
+box-shadow: none;
+}
+.banner {
+position: relative;
+overflow: hidden;
+width: 100%;
+height: 100%;
+}
+.banner__bulg {
+content: "";
+position: absolute;
+top: 10px;
+left: 50%;
+margin-left: -100%;
+width: 200%;
+max-width: 1913px;
+height: 376px;
+border-radius: 50%;
+border: 2px solid #e8e8e8;
+background: #fff;
+box-shadow: 0 0 0 10px #fff;
+}
+.banner__bulg:before {
+content: "";
+position: absolute;
+top: 22px;
+left: 50%;
+margin-left: -470px;
+width: 100%;
+max-width: 940px;
+height: 332px;
+border-left: 2px solid #e8e8e8;
+border-right: 2px solid #e8e8e8;
+box-shadow: 10px 0 0 0 #fff,  -10px 0 0 0 #fff;
+}
+.banner__slides {
+list-style-type: none;
+padding: 0;
+}
+.banner__slide {
+content: "";
+position: absolute;
+overflow: hidden;
+width: 100%;
+height: 344px;
+border-radius: 50%;
+text-align: center;
+}
+.banner__slide a {
+position: relative;
+display: block;
+width: 54%;
+margin-left: 22%;
+font-family: 'Georgia', 'Times New Roman', serif;
+text-decoration: none;
+cursor: default;
+}
+.banner__slide--image-frame img {
+max-height: none;
+}
+.banner__slide--info {
+width: 35%;
+height: 100%;
+padding: 5% 60px 100% 10px;
+background: rgba(89,64,24,0.25);
+text-shadow: none;
+}
+.banner__slide--info__name {
+text-shadow: 1px -1px 0 #594018;
+}
+.banner__position {
+position: absolute;
+display: block;
+right: 50%;
+bottom: -30px;
+list-style-type: none;
+padding: 0;
+}
+.banner__position li {
+float: left;
+margin-left: 10px;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+background: #fff;
+box-shadow: 0 1px 0 0 #ccc;
+cursor: pointer;
+}
+.banner__position li.active {
+background: #bda376;
+box-shadow: 0 1px 0 0 #fff;
+}
+}
+ @media (min-width: 700px) {
+.banner__nav {
+opacity: 1;
+}
+.banner__slide a {
+width: 47%;
+margin-left: 26.5%;
+}
+.banner__slide--image-frame {
+width: 68%;
+}
+.banner__slide--info {
+width: 31%;
+padding-right: 30px;
+background: #a38b5f;
+background: -moz-linear-gradient(top, #a38b5f 0%, #674f29 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a38b5f), color-stop(100%, #674f29));
+background: -webkit-linear-gradient(top, #a38b5f 0%, #674f29 100%);
+background: -o-linear-gradient(top, #a38b5f 0%, #674f29 100%);
+background: -ms-linear-gradient(top, #a38b5f 0%, #674f29 100%);
+background: linear-gradient(to bottom, #a38b5f 0%, #674f29 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a38b5f', endColorstr='#674f29', GradientType=0 );
+}
+}
+
+/* The following is strictly for the image and description panels to be completely stable. (When set to percentages, in smaller views, they would slightly move in or out a pixel or two when the next slide came in: */
+@media (min-width: 960px) {
+.banner__wrapper {
+width: 960px;
+}
+.banner__bulg {
+margin-left: -960px;
+width: 1920px;
+}
+.banner__slide {
+left: 50%;
+margin-left: -900px;
+width: 1800px;
+}
+.banner__slide a {
+width: 900px;
+margin-left: 25%;
+}
+}
