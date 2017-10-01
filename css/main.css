@@ -1,4 +1,4 @@
-h1,h2,h3,p,figure
+h1,h2,h3,p,figure,ul
 {
 	margin: 0;
 	padding: 0;
@@ -356,9 +356,10 @@ header a
 	text-align: center;
 }
 
-#rooms p, .banner__wrapper
+#rooms p
 {
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
 
 footer

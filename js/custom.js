@@ -36,4 +36,8 @@ $(document).ready(function()
 			$('.sidemenu').removeClass('clicked');
 			$('.desktop-visible').removeClass('sidenav-visible');
 	});*/
+    $('.pgwSlideshow').pgwSlideshow({
+    	autoSlide:true,
+    	displayList:false
+    });
 });
