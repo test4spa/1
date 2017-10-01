@@ -38,7 +38,12 @@ a
 .tel
 {
 	color: white;
-	text-decoration: underline dashed;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	-moz-webkit-text-decoration-style: dashed;
+	-ms-webkit-text-decoration-style: dashed;
+	-o-webkit-text-decoration-style: dashed;
+	webkit-text-decoration-style: dashed;
 	opacity: 1;
 }
 
