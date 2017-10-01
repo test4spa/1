@@ -11,10 +11,13 @@
 	}
 }
 
-/*@media screen and (max-width:1024px)
+@media screen and (max-width:1024px)
 {
-	background-attachment: scroll;
-}*/
+	header, #services
+	{
+		background-attachment: scroll;
+	}
+}
 
 @media screen and (max-width:1000px)
 {
