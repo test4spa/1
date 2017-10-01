@@ -58,6 +58,7 @@ opacity: 1;
 .banner__slides {
 list-style-type: none;
 padding: 0;
+margin: 16px;
 }
 .banner__slide {
 position: absolute;
