@@ -18,6 +18,13 @@ p
 	text-align: center;
 }
 
+.tel
+{
+	color: white;
+	text-decoration: underline dashed white;
+	opacity: 1;
+}
+
 .activelink
 {
 	border-bottom: 2px solid #f42052;

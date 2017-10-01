@@ -35,6 +35,13 @@ a
 	text-decoration: none;
 }
 
+.tel
+{
+	color: white;
+	text-decoration: underline dashed;
+	opacity: 1;
+}
+
 .activelink
 {
 	border-bottom: 2px solid #f42052;
@@ -430,4 +437,9 @@ main section
 	align-self: flex-start;
 	width: 450px;
 	margin: auto 0;
+}
+
+.contacts_txt a
+{
+	color: black;
 }
