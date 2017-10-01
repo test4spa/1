@@ -9,7 +9,7 @@ body
 {
 	position: relative;
 	min-height: 100vh;
-	padding-bottom: 106px;
+	padding-bottom: 100px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -398,4 +398,36 @@ main section
 .fig-row strong
 {
 	border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+.contacts
+{
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom: 65px;
+}
+
+.contacts_img
+{
+	max-width: 450px;
+	max-height: 450px;
+	width: 100%;
+	height: 100%;
+}
+
+.contacts_txt
+{
+	-ms-align-self: flex-start;
+	align-self: flex-start;
+	width: 450px;
+	margin: auto 0;
 }
