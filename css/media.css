@@ -37,14 +37,6 @@
 	}
 }
 
-@media screen and (max-width:915px)
-{
-	.contacts_txt
-	{
-		order: -1;
-	}
-}
-
 @media screen and (max-width:800px)
 {
 	.name h1
