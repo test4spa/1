@@ -50,6 +50,7 @@ header
 	height: 250px;
 	background-image: url(../images/main_first_x.jpg);
 	background-position: center 355px;
+	background-size: cover;
 	display: -webkit-flex;
   	display: -moz-flex;
   	display: -ms-flex;
