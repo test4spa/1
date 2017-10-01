@@ -21,7 +21,8 @@ p
 .tel
 {
 	color: white;
-	text-decoration: underline dashed white;
+	border-bottom: 2px dashed;
+	text-decoration: none;
 	opacity: 1;
 }
 
@@ -381,6 +382,11 @@ footer p
 {
 	text-align: right;
 	opacity: .8;
+}
+
+footer p:last-child
+{
+	line-height: 1.55;
 }
 
 footer div

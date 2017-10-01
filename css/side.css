@@ -38,12 +38,7 @@ a
 .tel
 {
 	color: white;
-	text-decoration: underline;
-	text-decoration-style: dashed;
-	-moz-webkit-text-decoration-style: dashed;
-	-ms-webkit-text-decoration-style: dashed;
-	-o-webkit-text-decoration-style: dashed;
-	webkit-text-decoration-style: dashed;
+	border-bottom: 2px dashed;
 	opacity: 1;
 }
 
@@ -254,6 +249,11 @@ footer p
 {
 	text-align: right;
 	opacity: .8;
+}
+
+footer p:last-child
+{
+	line-height: 1.55;
 }
 
 footer div
