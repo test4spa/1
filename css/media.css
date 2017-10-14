@@ -169,9 +169,19 @@
 
 @media screen and (max-width:430px)
 {
-		.sides_name h1
+	.sides_name h1
 	{
 		font-size: 30px;
+	}
+
+	.flex_wrap
+	{
+		justify-content: space-around;
+	}
+
+	.price_img
+	{
+		display: none;
 	}
 }
 
