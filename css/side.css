@@ -448,3 +448,47 @@ main section
 {
 	color: black;
 }
+
+.long_position
+{
+	max-width: 475px;
+	width: 100%;
+}
+
+.flex_wrap
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.long_txt p
+{
+	margin-bottom: 20px;
+}
+
+.long_txt ul
+{
+	padding: 0 20px;
+	padding-left: 40px;
+}
+
+.long_txt p, .long_txt ul li
+{
+	text-align: left;
+}
+
+.price_img
+{
+	width: 210px;
+	height: 130px;
+}
