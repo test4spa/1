@@ -449,6 +449,11 @@ main section
 	color: black;
 }
 
+.prices h2 span
+{
+	border-bottom: 1px solid black;
+}
+
 .long_position
 {
 	max-width: 475px;
