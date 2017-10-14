@@ -492,3 +492,13 @@ main section
 	width: 210px;
 	height: 130px;
 }
+
+.position h3
+{
+	margin-bottom: 10px;
+}
+
+.position p:not(:last-child)
+{
+	margin-bottom: 20px;
+}
