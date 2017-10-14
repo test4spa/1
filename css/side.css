@@ -327,6 +327,7 @@ article ul li:not(:last-child)
 article ul ul
 {
 	margin-top: 5px;
+	margin-bottom: 0;
 }
 
 main section
